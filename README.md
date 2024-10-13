@@ -19,7 +19,7 @@
 1. **Create an EC2 Instance:**
    - Open the AWS Management Console and navigate to the EC2 service.
    - Click "Launch Instance."
-   - Choose an Amazon Machine Image (AMI), such as Amazon Linux 2 or Ubuntu Server.
+   - Choose an Amazon Machine Image (AMI), such as Amazon Linux 3 Server.
    - Select an instance type (e.g., t2.micro for free-tier).
    - Configure instance details, ensuring that it’s deployed into the correct VPC and subnet.
    - Add storage if necessary, or proceed with default settings.
@@ -32,7 +32,10 @@
    ```bash
    ssh -i "your-key.pem" ec2-user@your-ec2-public-ip
    ```
-   - Install necessary dependencies (e.g., .NET SDK, Nginx, or any other server you require for your backend).
+   - Install necessary dependencies to run a Spring Application ie Java:
+   ```bash
+   sudo yum install java-21-amazon-corretto
+   ```
 
 3. **Deploy Your Backend Application:**
    - Use `scp` or another file transfer method to upload your backend application files to the EC2 instance:
