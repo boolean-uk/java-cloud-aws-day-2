@@ -1,3 +1,7 @@
+# Proof of Completion
+![[Pasted image 20241014150858.png]]
+![[Pasted image 20241014151023.png]]
+
 # Java Cloud AWS - Day Two
 
 ## Learning Objectives
