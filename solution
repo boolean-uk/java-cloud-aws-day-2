@@ -1,0 +1,4 @@
+http://leo-wahlandt-aws-2.s3-website-eu-west-1.amazonaws.com/
+
+A working website connected to AWS database and a bucket.
+Can create user and login to the user.
