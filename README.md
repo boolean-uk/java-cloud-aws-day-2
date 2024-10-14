@@ -40,15 +40,13 @@
 3. **Deploy Your Backend Application:**
    - Use `scp` or another file transfer method to upload your backend application files to the EC2 instance:
    ```bash
-   scp -i "your-key.pem" MyApi.zip ec2-user@your-ec2-public-ip:/home/ec2-user/
+   scp -i "your-key.pem" NameOfFile.jar ec2-user@your-ec2-public-ip:/home/ec2-user/
    ```
-   - SSH into the instance and extract your backend files:
-   ```bash
-   unzip MyApi.zip
+   MyApi.zip
    ```
    - Start the application using the appropriate commands (for JAVA):
    ```bash
-   TODO:JAVA COMMAND TO BE ADDED
+   java -jar NameOfFile.jar &
    ```
 
 ## Set Up Networking: VPC and API Gateway
