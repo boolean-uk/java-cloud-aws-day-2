@@ -49,28 +49,13 @@
    java -jar NameOfFile.jar &
    ```
 
-## Set Up Networking: VPC and API Gateway
-### Steps
-1. Create a Virtual Private Cloud (VPC):
-   - In the AWS Management Console, navigate to the VPC service.
-   - Click "Create VPC."
-   - Choose "VPC only" and configure the CIDR block (e.g., `10.0.0.0/16`).
-   - Create subnets within your VPC for different availability zones.
+## Investigate Connecting to an RDS Database
 
-2. Configure Route Table and Internet Gateway:
-   - Create and attach an Internet Gateway to your VPC to allow internet access.
-   - In the Route Tables section, add routes that direct traffic to the Internet Gateway for public subnets.
+1. Once you are able to connect to a Neon Database using your EC2 instance, investigate whether you can make it talk to an existing RDS database via a public conneection as we did in the previous session.
+2. If you are able to achieve this then investigate connecting to a dedicated RDS instance using the same VPS as the EC3 instance is connected to.
 
-3. Create and Configure API Gateway:
-   - Navigate to the API Gateway service.
-   - Click "Create API" and select "REST API."
-   - Define an API name and create an HTTP method (e.g., GET, POST) that corresponds to your backend application.
-   - Set the integration type as "HTTP" or "Lambda Function," depending on your application.
-   - For "HTTP" integration, use the public IP or domain of your EC2 instance as the endpoint.
-
-4. Test the API Gateway:
-   - Once configured, test the API Gateway by sending HTTP requests to the API Gateway's URL.
-   - Ensure that it forwards requests correctly to your EC2-hosted backend.
+You will need to delete existing databases at this point, as you should never have more than 1 RDS database in existence at once (this is our rule not an AWS rule and is purely to minimise the costs). Ensure that any databases you do create are t3.micro or we will delete them without warning.
+  
 
 ## Introduction to IAM and Policies
 ### Steps
