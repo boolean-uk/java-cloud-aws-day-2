@@ -42,8 +42,8 @@
    ```bash
    scp -i "your-key.pem" NameOfFile.jar ec2-user@your-ec2-public-ip:/home/ec2-user/
    ```
-   MyApi.zip
-   ```
+   - Login to the server using ssh again
+     
    - Start the application using the appropriate commands (for JAVA):
    ```bash
    java -jar NameOfFile.jar &
