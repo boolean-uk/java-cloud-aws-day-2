@@ -1,6 +1,8 @@
 # Proof of Completion
-![[Pasted image 20241014150858.png]]
-![[Pasted image 20241014151023.png]]
+![Pic1](./image1.png)
+
+![pic1](./image2.png)
+
 
 # Java Cloud AWS - Day Two
 
