@@ -82,3 +82,11 @@ Secure copy to aws
 
 Open in web browser (NOTE! empty todo list)
 ![](images/4_openInBrowser.png)
+
+## Extension
+Jar file 0.0.4 is neondb.  
+Jar file 0.0.5 is aws.  
+![](images/5_jarFiles.png)
+
+Connection to aws database with TablePlus.  
+![](images/6_connectToAwsTablePlus.png)
