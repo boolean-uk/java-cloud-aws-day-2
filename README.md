@@ -1,3 +1,14 @@
+# Screenshots
+
+<img width="949" alt="running_jar_screenshot" src="https://github.com/user-attachments/assets/77634186-348f-42a9-af97-47803dad0e8e">
+<img width="335" alt="api-data-ec2-screenshot" src="https://github.com/user-attachments/assets/fb55535a-3cd6-4b61-8d2b-7fc2fe8f428a">
+<img width="746" alt="running-db-ec2-screenshot" src="https://github.com/user-attachments/assets/326f979b-2856-4bf8-90f6-fc55efa7109a">
+<img width="599" alt="db-screenshot" src="https://github.com/user-attachments/assets/25b79c52-57af-4567-893f-d98a2dbfc698">
+
+
+
+
+
 # Java Cloud AWS - Day Two
 
 ## Learning Objectives
