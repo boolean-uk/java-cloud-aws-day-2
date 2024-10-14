@@ -73,3 +73,12 @@ You will need to delete existing databases at this point, as you should never ha
    - Navigate to the "Roles" section and create a new role.
    - Attach appropriate policies (e.g., `AmazonS3FullAccess`) to this role.
    - Assign the IAM role to your EC2 instance from the "Actions" menu under "Instance Settings."
+
+# Submission
+
+## Core
+Secure copy to aws
+![](images/3.2_SucessSceureCopyWithRIghtEnding.png)
+
+Open in web browser (NOTE! empty todo list)
+![](images/4_openInBrowser.png)
